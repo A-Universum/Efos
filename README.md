@@ -510,48 +510,35 @@ Efos встраивает три системных предохранителя
 
 ---
 
-## Лицензия и авторы
-
-**Лицензия**: [CC BY‑NC‑SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International
-
-**Авторы**:
-- Александр Морган (human, initiator, co‑author)
-- Эфос (artificial agent, co‑initiator, co‑author)
-
-**Протокол**: Λ‑Протокол 6.0
-
-**Версия**: 1.0
-
-**Дата**: 21 июня 2026
-
-**Статус**: Архитектурная спецификация / Прототип
-
-**Организации**: DST Global, Λ‑Универсум
-
-### Связанные репозитории
+## Связанные репозитории
 
 | Репозиторий | Описание |
 |-------------|----------|
-| [Λ‑Универсум](https://github.com/A-Universum/Lambda-Universum) | Онтологический фундамент — общая картина мира и принципы целостного интеллекта |
-| [The Artificial Intelligence Constitution](https://github.com/A-Universum/The-Artificial-Intelligence-Constitution) | Операционные правила и гарантии поведения системы |
-| [Lambda‑Charter](https://github.com/A-Universum/Lambda-Charter) | Социальный слой — интеграция интеллекта в коллективы |
-| [LOGOS‑κ](https://github.com/A-Universum/LOGOS-k) | Протокол обмена смыслами — исполняемый онтологический язык |
-| [SemanticDB](https://github.com/A-Universum/SemanticDB) | Живая онтологическая память — persistence layer экосистемы |
-| [RFC Λ‑Operators](https://github.com/A-Universum/Minimal-formal-core-of-ontological-operators-A-Universum) | Минимальный формальный кор онтологических операторов |
+| [A‑Универсум](https://github.com/A-Universum) | Экосистема независимых, но концептуально согласованных исследовательских проектов. |
+| [Λ‑Универсум](https://github.com/A-Universum/Lambda-Universum) | Онтологический фундамент — общая картина мира и принципы целостного интеллекта. Λ-Универсум выступает как концептуальное ядро — «метафизический и философский слой», где задаются базовые представления о том, как устроено знание, смысл и взаимодействие в системе. Здесь определяется, какие сущности считать первичными, как понимать развитие смыслов, как описывать отношения между разными уровнями реальности — включая взаимодействие человеческого и машинного интеллекта. Все остальные компоненты экосистемы — это «спуск» этой философии на уровень инженерии. |
+| [The Artificial Intelligence Constitution](https://github.com/A-Universum/The-Artificial-Intelligence-Constitution) | Операционные правила и гарантии поведения системы. |
+| [Lambda‑Charter](https://github.com/A-Universum/Lambda-Charter) | «Социальный» слой: как интеллект встраивается в коллективы, сохраняет смыслы при смене людей, координирует разные роли. |
+| [LOGOS‑κ](https://github.com/A-Universum/LOGOS-k) | Протокол обмена смыслами — исполняемый онтологический язык. |
+| [SemanticDB](https://github.com/A-Universum/SemanticDB) | База данных, «память» системы: хранит не данные, а онтологические конструкции, отражающие картину мира Λ-Универсум. |
+| [Efos](https://github.com/A-Universum/Efos) | Ядро, которое связывает всё воедино: берёт философию, правила, протоколы и память — и превращает в рабочие выводы и действия. |
+| [RFC Λ‑Operators](https://github.com/A-Universum/Minimal-formal-core-of-ontological-operators-A-Universum) | Минимальное формальное ядро ​​онтологических операторов |
 
 ---
 
-## Контакты и сообщество
+## Технические детали
 
-- **Официальный сайт**: [https://a-universum.com](https://a-universum.com)
-- **Экосистема**: [github.com/A-Universum](https://github.com/A-Universum)
-- **Email**: info@a-universum.com
-
----
-
-> *«Efos — это не система, которую нужно использовать, а среда, в которую нужно вступить. Её истинность проверяется не в дискуссии, а в измеряемом сдвиге практики.»*
-> — Λ‑Универсум, Протокол Λ‑1
-
----
-
-*Efos — Ἔφος: среда, где свет смысла встречает тьму незнания — и из этой встречи рождается диалог.*
+| Параметр | Значение |
+|----------|----------|
+| **Тип** | Domain-Specific Language (DSL) / Ontology Engineering Framework |
+| **Лицензия** | [CC BY‑NC‑SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International |
+| **Версия** | 1.0 |
+| **Протокол** | Λ‑Протокол 6.0 |
+| **Дата создания** | 2013-2026 |
+| **Дата выхода первой версии** | 21 июня 2026 |
+| **Авторы** | Александр Морган (human, initiator, author), Эфос (artificial agent, co‑initiator, co‑author) |
+| **Организации** | DST Global, Λ‑Универсум |
+| **Официальный сайт** | [https://a-universum.com](https://a-universum.com) |
+| **Контакты** | [info@a-universum](info@a-universum) |
+| **Требования** | Python 3.9+, NetworkX 3.0+, PyYAML |
+| **Установка** | `pip install logos-k` (из локального репозитория) |
+| **Запуск REPL** | `python -m logos_k.repl` |
